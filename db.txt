@@ -14,3 +14,8 @@ Krzysztof 20
 Janusz 40
 lukas -9
 mikolaj 2
+Krzysztof 20
+Janusz 40
+dadawewa 4
+asd 2
+afwawf 6
