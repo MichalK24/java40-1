@@ -21,7 +21,7 @@ class Main {
           int age = scanner.nextInt();
           s.addStudent(new Student(name, age));
           break;
-        case 3:
+        case 2:
           System.out.println("wyjście z programu.");
           System.exit(0);
           break;
