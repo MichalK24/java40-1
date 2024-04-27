@@ -7,17 +7,17 @@ class Main {
       Service s = new Service();
       Scanner scanner = new Scanner(System.in);
 
-      System.out.println("Wybierz opcje:");
-      System.out.println("1 - Dodaj");
-      System.out.println("2 - Wypisz studentów");
-      System.out.println("3 - Wyjście");
+      System.out.println("wybierz opcje:");
+      System.out.println("1 - dodaj");
+      System.out.println("2 - wypisz studentów");
+      System.out.println("3 - wyjście");
 
       int choice = scanner.nextInt();
       switch (choice) {
         case 1:
-          System.out.print("Imie: ");
+          System.out.print("imie: ");
           String name = scanner.next();
-          System.out.print("Wiek: ");
+          System.out.print("wiek: ");
           int age = scanner.nextInt();
           s.addStudent(new Student(name, age));
           break;
