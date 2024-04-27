@@ -22,6 +22,12 @@ class Main {
           s.addStudent(new Student(name, age));
           break;
         case 2:
+          var students = s.getStudents();
+          for (Student current : students) {
+            System.out.println(current.ToString());
+          }
+          break;
+        case 3:
           System.out.println("Wyjście z programu.");
           System.exit(0);
           break;
