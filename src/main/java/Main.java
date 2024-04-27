@@ -28,11 +28,11 @@ class Main {
           }
           break;
         case 3:
-          System.out.println("Wyjście z programu.");
+          System.out.println("wyjście z programu.");
           System.exit(0);
           break;
         default:
-          System.out.println("Zły wybór.");
+          System.out.println("błędny wybór.");
       }
     } catch (IOException e) {
 
